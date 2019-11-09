@@ -1,0 +1,92 @@
+{
+    "format": "layers-model",
+    "generatedBy": null,
+    "convertedBy": "TensorFlow.js Converter v1.3.1.1",
+    "modelTopology": null,
+    "weightsManifest": [
+        {
+            "paths": [
+                "group1-shard1of1.bin"
+            ],
+            "weights": [
+                {
+                    "name": "embedding_1/embeddings",
+                    "shape": [
+                        465,
+                        100
+                    ],
+                    "dtype": "float32"
+                },
+                {
+                    "name": "rnn_1_1/kernel",
+                    "shape": [
+                        100,
+                        512
+                    ],
+                    "dtype": "float32"
+                },
+                {
+                    "name": "rnn_1_1/recurrent_kernel",
+                    "shape": [
+                        128,
+                        512
+                    ],
+                    "dtype": "float32"
+                },
+                {
+                    "name": "rnn_1_1/bias",
+                    "shape": [
+                        512
+                    ],
+                    "dtype": "float32"
+                },
+                {
+                    "name": "rnn_2_1/kernel",
+                    "shape": [
+                        128,
+                        512
+                    ],
+                    "dtype": "float32"
+                },
+                {
+                    "name": "rnn_2_1/recurrent_kernel",
+                    "shape": [
+                        128,
+                        512
+                    ],
+                    "dtype": "float32"
+                },
+                {
+                    "name": "rnn_2_1/bias",
+                    "shape": [
+                        512
+                    ],
+                    "dtype": "float32"
+                },
+                {
+                    "name": "attention_1/attention_W",
+                    "shape": [
+                        356,
+                        1
+                    ],
+                    "dtype": "float32"
+                },
+                {
+                    "name": "output_1/kernel",
+                    "shape": [
+                        356,
+                        465
+                    ],
+                    "dtype": "float32"
+                },
+                {
+                    "name": "output_1/bias",
+                    "shape": [
+                        465
+                    ],
+                    "dtype": "float32"
+                }
+            ]
+        }
+    ]
+}
